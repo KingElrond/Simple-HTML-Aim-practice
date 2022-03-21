@@ -1,0 +1,1 @@
+This game is a modification of @EpicRaisin's game on Replit, which can be found at https://replit.com/@EpicRaisin/aim-practice. It is licensed under the default Replit license, that is, the MIT License, for which this copy is also licensed.

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<script src="localize.js" defer></script>
+		<title>Simple Aim Trainer</title>
+	</head>
+	<body>
+		<div lang="en" class="lang-container">
+			<form method="GET" action="/play.html">
+				<label for="en-loadout">GameMode: </label>
+				<select id="en-loadout" name="loadout">
+					<option value="rtwo">1 hit kill</option>
+					<option value="rone">Regular</option>
+					<option value="rthree">3R</option>
+				</select>
+				<br/>
+				<input type="submit" value="Play"/>
+			</form>
+			<a href="LICENSE.txt">License</a>
+		</div>
+		<div lang="nan" class="lang-container">
+			<form method="GET" action="/play.html">
+				<label for="nan-loadout">銃: </label>
+				<select id="nan-loadout" name="loadout">
+					<option value="rone">1R</option>
+					<option value="rtwo">2R</option>
+					<option value="rthree">3R</option>
+				</select>
+				<br/>
+				<input type="submit" value="奕"/>
+			</form>
+			<a href="LICENSE.txt">許可證</a>
+		</div>
+	</body>
+</html>
